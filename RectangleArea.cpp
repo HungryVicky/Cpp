@@ -1,6 +1,4 @@
 //https://www.hackerrank.com/challenges/rectangle-area/problem
-#include <iostream>
-using namespace std;
 
 class Rectangle{
   public:
@@ -22,7 +20,13 @@ class RectangleArea:public Rectangle{
     }
 };
 
-/*
- * Create classes Rectangle and RectangleArea
- */
-
+int main()
+{
+   
+    RectangleArea r_area;
+    r_area.read_input();
+    r_area.Rectangle::display();
+    r_area.display();
+    
+    return 0;
+}
