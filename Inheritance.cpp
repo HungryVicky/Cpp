@@ -1,3 +1,5 @@
+//https://www.hackerrank.com/challenges/inheritance-introduction/problem
+
 #include <cmath>
 #include <cstdio>
 #include <vector>
